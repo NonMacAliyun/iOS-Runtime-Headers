@@ -25,7 +25,7 @@
 @property int internalState;
 @property (retain) NSObject<OS_nw_udp_session> *internalUDPSession;
 @property (readonly) NSString *localPort;
-@property (readonly) unsigned int maximumDatagramLength;
+@property (readonly) unsigned int maximumDatagramLength;//数据报最大长度
 @property (readonly) NWParameters *parameters;
 @property (readonly, copy) NSString *privateDescription;
 @property (readonly) NWEndpoint *resolvedEndpoint;

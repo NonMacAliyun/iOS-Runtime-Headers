@@ -41,7 +41,7 @@
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)matchesNetworkDescriptionArray:(id)arg1 endpoint:(id)arg2 parameters:(id)arg3;
 - (unsigned long long)monitorResult;
-- (id)networkDescriptionArray;
+- (id)networkDescriptionArray;/*************/
 - (id)parameters;
 - (id)privateDescription;
 - (void)setHelperEndpoint:(struct net_helper_endpoint_s { }*)arg1;

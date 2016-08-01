@@ -37,7 +37,7 @@
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)matchesPath:(id)arg1;
 - (int)powerAttachedPreference;
-- (id)privateDescription;
+- (id)privateDescription;/*****/
 - (id)probeURL;
 - (int)roamingPreference;
 - (void)setDnsSearchDomainOptions:(id)arg1;
@@ -48,7 +48,7 @@
 - (void)setRoamingPreference:(int)arg1;
 - (void)setSsidOptions:(id)arg1;
 - (void)setState:(int)arg1;
-- (id)ssidOptions;
+- (id)ssidOptions;/*******/
 - (int)state;
 - (void)updateStateWithPath:(id)arg1;
 
