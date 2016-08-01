@@ -55,8 +55,8 @@
 - (BOOL)isViable;
 - (id)localPort;
 - (unsigned int)maximumDatagramLength;
-- (id)parameters;
-- (id)privateDescription;
+- (id)parameters;/*****/  //猜测是参数 post/get请求中的参数
+- (id)privateDescription;   /*****/
 - (id)resolvedEndpoint;
 - (void)setCurrentResolvedEndpoint:(id)arg1;
 - (void)setInternalCurrentPath:(id)arg1;
